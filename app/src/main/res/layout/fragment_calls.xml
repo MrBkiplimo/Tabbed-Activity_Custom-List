@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/m "
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#567"
+    android:orientation="vertical"
+    tools:context=".fragment.CallsFragment">
+
+
+    <Button
+        android:id="@+id/mBtnClickMe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Me" />
+
+    <Button
+        android:id="@+id/mBtnPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0D7AE6"
+        android:text="Call"
+        app:backgroundTint="#065493" />
+</LinearLayout>
